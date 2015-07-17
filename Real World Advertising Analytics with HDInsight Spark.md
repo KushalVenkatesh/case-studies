@@ -1,3 +1,5 @@
+## Real World Advertising Analytics with HDInsight Spark
+
 One of the biggest challenges of the real world display advertising business is quantifying its impact. Unlike online advertising, with direct measurements like impressions and click thru rates, there are no easy direct measurement techniques for real world advertising.
 
 In my team at Microsoft, these are the types of problems that we love to solve and we partnered with one of the largest physical display advertisers in Europe to work on solutions to this problem. In this post I'll describe how we combined a number of their datasets in conjunction with our preview HDInsight Spark data platform into insights around the connectedness between their ad frames that they've never had before.
