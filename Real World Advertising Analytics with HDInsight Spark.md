@@ -1,8 +1,7 @@
 ## Real World Advertising Analytics with HDInsight Spark
+### By Tim Park, Partner Catalyst Team, Microsoft
 
-One of the biggest challenges of the real world display advertising business is quantifying its impact. Unlike online advertising, with direct measurements like impressions and click thru rates, there are no easy direct measurement techniques for real world advertising.
-
-In my team at Microsoft, these are the types of problems that we love to solve and we partnered with one of the largest physical display advertisers in Europe to work on solutions to this problem. In this post I'll describe how we combined a number of their datasets in conjunction with our preview HDInsight Spark data platform into insights around the connectedness between their ad frames that they've never had before.
+One of the biggest challenges of the real world display advertising business is quantifying its impact. Unlike online advertising, with direct measurements like impressions and click thru rates, there are no easy direct measurement techniques for real world advertising. In this case study I'll describe how we combined a number of their datasets in conjunction with our preview HDInsight Spark data platform into insights around the connectedness between their ad frames that they've never had before.
 
 First, a little background on HDInsight Spark. Spark is a cluster compute framework that is frequently named as the successor to the venerable Apache Hadoop project. In contrast to Hadoop, which does most of its data processing operations on-disk, Spark utilizes main memory as much as possible for processing and caching datasets, making it up to 100x faster for some workloads.
 
