@@ -13,6 +13,17 @@ We used two Ströer Hamburg city level datasets for this analysis: 1) Frame loca
 
 We also mapped all of the human motion data to these geokeys. In doing so, we also preserved geokey visit sequences such that we maintained linkage tuples between the geokeys such that we can discover correlations between them. We joined the frame geokeyed data against the motion geokeyed data to come up with impressions for each of the ad frames:
 
+    '4455689-59428': 1434
+    '4439378-63438': 1434 
+    '4455992-710618': 1434
+    '4459533-748232': 1201
+    '4451787-748229': 1201
+    '4455822-329131': 993
+    '4455826-329132': 993
+    '4509258-65487': 827
+    '4470737-712893': 777
+    '4436810-66184': 734
+
 Finally, we used the linkage tuples to also discover highly linked ad frames:
 
     >>> sortedConnectionCounts.take(10)
