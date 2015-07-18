@@ -28,7 +28,15 @@ Finally, we used the linkage tuples to also discover highly linked ad frames:
     '4455992-710618_to_4457278-417660': 280
     '4439378-63438_to_4457278-417660': 280
 
-This linkage data gives us the insight that anyone seeing ad unit 4509258-65487 is highly likely to also see ad unit 4456583-713308 as they move through the city. This is an insight that Ströer did not previously have and they can use this type of information to potentially build <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/BurmaShaveSigns_Route66.jpg/1280px-BurmaShaveSigns_Route66.jpg">Burma Shave</a> style advertising campaigns, or conversely, make sure that they spread the same ad onto the lowest correlated ad frames to maximize exposure.
+This linkage data gives us the insight that anyone seeing ad unit 4509258-65487 is highly likely to also see ad unit 4456583-713308 as they move through the city. This is an insight that Ströer can use to potentially build <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/BurmaShaveSigns_Route66.jpg/1280px-BurmaShaveSigns_Route66.jpg">Burma Shave</a> style advertising campaigns, or conversely, make sure that they spread the same ad onto the lowest correlated ad frames to maximize exposure.
+
+Finally, we also strung together these these geotile visits into "strings" to identify the most common routes through the city:
+
+![Top Routes](routes.png)
+
+and shredded the motion data along "day/hour" buckets (eg. Mondays at 10am) to produce density diagrams of where people congregate during different different periods of the week:
+
+![Density](dayhour.png)
 
 This is just one example of how you can combine disparate datasets like this to gain real business insights at scale. Apache Spark makes it easy to prototype these solutions to see if they are feasible, runs these workloads faster in production, and HDInsight Spark coupled with Azure Storage makes it easy to operationalize them.
 
